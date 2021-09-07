@@ -63,6 +63,15 @@ rope5.display()
   drawSprites();
  
 }
-
+function keyPressed(){
+	if (keyCode===32){
+		Matter.Body.applyForce(bob1.body,{x:0,y:0},{x:0.01,y:0.01})
+	//	Matter.Body.applyForce(bob2.body,{x:0,y:0},{x:0.9,y:0.01})
+	//	Matter.Body.applyForce(bob3.body,{x:0,y:0},{x:0.9,y:0.})
+	//	Matter.Body.applyForce(bob4.body,{x:0,y:0},{x:0.9,y:0})
+		//Matter.Body.applyForce(bob5.body,{x:0,y:0},{x:0.9,y:0})
+	
+	}
+}
 
 
