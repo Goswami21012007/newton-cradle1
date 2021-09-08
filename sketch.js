@@ -43,10 +43,9 @@ rope5=new Rope(bob5.body,{x:550,y:100})
 
 
 function draw() {
-  rectMode(CENTER);
-  background(225);
-
-
+ rectMode(CENTER);
+ background(225);
+ Engine.update(engine)
 text("x:"+mouseX+",y:"+mouseY,21,100)
 
 ground.display()
@@ -54,12 +53,13 @@ bob1.display()
 bob2.display()
 bob3.display()
 bob4.display()
-bob5.display()
+//bob5.display()
 rope1.display()
 rope2.display()
 rope3.display()
 rope4.display()
-rope5.display()
+//rope5.display()
+
   drawSprites();
  
 }
